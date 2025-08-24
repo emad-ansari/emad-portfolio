@@ -8,6 +8,8 @@ import Image from "next/image"
 import code from "@/app/assets/code-io.png"
 import blood_bank from '@/app/assets/blood-bank.png'
 import tree_visualizer from '@/app/assets/tree-visulaizer.png'
+import daily_xp from '@/app/assets/daily-xp.png';
+
 const projects = [
   {
     title: "Code.io",
@@ -40,7 +42,7 @@ const projects = [
     title: "Daily-xp",
     description:
       "A modern web application that gamifies daily productivity by turning user activities into an engaging experience with XP rewards and progress tracking",
-    image: "/placeholder-hu24i.png",
+    image: daily_xp,
     tags: ["Next.js", "Stripe", "Supabase", "TypeScript", "Tailwind"],
     liveUrl: "https://daily-xp.vercel.app",
     githubUrl: "https://github.com/emad-ansari/Gamified-User-Dashboard",
