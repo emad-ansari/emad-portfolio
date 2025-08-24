@@ -51,20 +51,20 @@ const projects = [
  
 ]
 
-const addOns = [
-  {
-    title: "TextFit",
-    description:
-      "An Add-On for Adobe Express that converts images to text using OCR technology. It allows users to extract text from images and use it in their designs.",
-    tags: ["JavaScript", "Adobe SDK", "OCR", "API"],
-  },
-  {
-    title: "Codify",
-    description:
-      "An Add-On for Adobe Express that generates code snippets from natural language descriptions. It allows users to create snippets for their designs.",
-    tags: ["JavaScript", "Adobe SDK", "OpenAI", "API"],
-  },
-]
+// const addOns = [
+//   {
+//     title: "TextFit",
+//     description:
+//       "An Add-On for Adobe Express that converts images to text using OCR technology. It allows users to extract text from images and use it in their designs.",
+//     tags: ["JavaScript", "Adobe SDK", "OCR", "API"],
+//   },
+//   {
+//     title: "Codify",
+//     description:
+//       "An Add-On for Adobe Express that generates code snippets from natural language descriptions. It allows users to create snippets for their designs.",
+//     tags: ["JavaScript", "Adobe SDK", "OpenAI", "API"],
+//   },
+// ]
 
 export function Projects() {
   const router = useRouter();
@@ -114,7 +114,7 @@ export function Projects() {
           ))}
         </div>
 
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <h3 className="text-2xl font-bold font-serif mb-8 text-center">Adobe Express Add-Ons</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {addOns.map((addon, index) => (
@@ -135,7 +135,7 @@ export function Projects() {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
