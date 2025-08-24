@@ -21,10 +21,10 @@ export function Hero() {
           </div>
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold font-serif mb-6">Hi, I'm Emad</h1>
+        <h1 className="text-4xl md:text-6xl font-bold font-serif mb-6">Hi, I&apos;m Emad</h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Hi, I create things, learn fast, and make shit happen. I love life coding and I've anything that pushes the
+          Hi, I create things, learn fast, and make shit happen. I love life coding and I&apos;ve anything that pushes the
           limits, history, curiosity, cricket, and great books instead me. still chasing mastery.
         </p>
 
