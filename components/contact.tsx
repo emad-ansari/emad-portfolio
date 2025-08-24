@@ -19,7 +19,6 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Handle form submission here
-    console.log("Form submitted:", formData)
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -34,7 +33,7 @@ export function Contact() {
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-serif mb-4">Get In Touch</h2>
-          <p className="text-muted-foreground mb-8">Have a question? Let's Chat:</p>
+          <p className="text-muted-foreground mb-8">Have a question? Let's Chat: </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button className="flex items-center gap-2 bg-primary hover:bg-primary/90">
