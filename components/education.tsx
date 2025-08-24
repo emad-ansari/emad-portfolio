@@ -15,15 +15,15 @@ export function Education() {
                   <GraduationCap className="w-6 h-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <CardTitle className="font-serif">Bachelor of Computer Applications</CardTitle>
-                  <CardDescription className="text-primary font-medium">University of Delhi</CardDescription>
+                  <CardTitle className="font-serif">Bachelor of Computer Science</CardTitle>
+                  <CardDescription className="text-primary font-medium">Galgotias University</CardDescription>
                 </div>
-                <div className="ml-auto text-sm text-muted-foreground">Expected May 2025</div>
+                <div className="ml-auto text-sm text-muted-foreground">Expected May 2026</div>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Pursuing a comprehensive degree in computer applications with focus on software development, data
+                Pursuing a comprehensive degree in computer science with focus on software development, data
                 structures, algorithms, and modern web technologies.
               </p>
             </CardContent>
